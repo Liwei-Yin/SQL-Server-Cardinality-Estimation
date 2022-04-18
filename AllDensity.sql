@@ -1,3 +1,11 @@
+------------------------4/18/2022-----------------
+---Scenarios using the All Density
+--1.Variable
+--2.Group BY
+--3.OPTIMIZE FOR UNKNOWN
+--4.DISABLE_PARAMETER_SNIFFING
+------------------------4/18/2022-----------------
+
 use AdventureWorks2019
 go
 IF exists(select 1 from sys.tables where name='SalesOrderDetail' and schema_id=schema_id('dbo'))
